@@ -1,0 +1,39 @@
+body,
+.contianer-fluid {
+  background-color: rgb(255, 214, 139);
+}
+
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #888;
+  border-radius: 6px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #555;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #f1f1f1;
+}
+
+::-webkit-scrollbar-track:hover {
+  background-color: #ddd;
+}
+::-webkit-scrollbar-corner {
+  background-color: transparent;
+}
+
+.fw-bolder{
+  color: rgb(255,193,7);
+}
+
+.fw-normal{
+  color: rgb(255, 207, 117);
+}
+.navbar-brand{
+  color: orange;
+}
