@@ -20,7 +20,7 @@ const CartItem = ({ product }) => {
         <div className="col-md-6 col-lg-3">
           <img
             className="card-img-top rounded mx-auto d-block mt-2"
-            src={product.images[0]}
+            src={product.images}
             alt="..."
             style={{ width: "200px", height: "200px" }}
           />

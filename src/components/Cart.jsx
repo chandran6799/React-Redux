@@ -19,7 +19,7 @@ const Cart = () => {
                     cart.length > 0 ? (
                         cart.map((item, index) => <CartItem product={item} key={index} />)
                     ) : (
-                        <p className="h6 m-0 mt-4 ms-5">!!!OOPS, no items in the cart</p>
+                        <p className="h6 m-0 mt-4 ms-5">!!!OOPS, no items in the cart please select an items</p>
                     )
                 }
                 
